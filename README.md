@@ -13,6 +13,3 @@ Program to give temp of system and system components
 ```python
 	pip install -U -r requirements.txt 
 ```
-=======
-# System-Monitor
->>>>>>> 6a19e03275b93ba5399e992735044a2d39dab49e
