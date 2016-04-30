@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #System Monitor
 
 Program to give temp of system and system components
