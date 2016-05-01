@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import sensors
-from twython import Twython
 
 #COLORS
 HEADER = '\033[95m'
@@ -12,12 +11,6 @@ FAIL = '\033[91m'
 ENDC = '\033[0m'
 BOLD = "\033[1m"
 
-APP_KEY = 'PVYhYZxe4vgJ7fRlQdjNxLdaB'  # Customer Key here
-APP_SECRET = 'HIQRXDQ5jPGoDGXhtlNzHyGzbPqrCAdYdAjhVj48YnkzYJapP9'  # Customer secret here
-OAUTH_TOKEN = '382404070-T9EnACzBokbgV70AIlgusAmMP4dO1qt1hdthQlam'  # Access Token here
-OAUTH_TOKEN_SECRET = 'vpAuDjHEX9IeiavT3BEJ5xuxoFQppmuMGZLYtiCn6jQ96'  # Access Token Secret here
-
-twitter = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 
 def getTemp():
     sensors.init()
